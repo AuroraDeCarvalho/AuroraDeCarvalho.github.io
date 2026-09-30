@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://auroradecarvalho.github.io/sitemap.xml

@@ -1,22 +1,21 @@
-# Aurora Carvalho — Digital Identity Foundation
+# Aurora de Carvalho — Identidade digital independente
 
-Projeto independente para o site canônico de Aurora Carvalho.
+Site canônico provisório: `https://auroradecarvalho.github.io/`
+Domínio futuro: `auroradecarvalho.com` (sem compra nesta fase).
+GitHub: `AuroraDeCarvalho/AuroraDeCarvalho.github.io` · SSH: `github-aurora`.
 
 ## Princípios
-- domínio próprio e identidade independente;
-- zero dependências de framework na fundação inicial;
-- site é a fonte canônica, redes sociais são canais satélites;
-- dados pessoais mínimos;
-- contatos, contratos, pagamentos e publicação sob custódia adulta enquanto necessário;
-- autoridade construída por evidência de projetos reais;
-- migração futura de custódia sem trocar domínio, marca ou histórico.
+Evidência antes de autoridade; simplicidade duradoura; privacidade por padrão;
+custódia adulta transparente; site como fonte canônica.
 
 ## Estrutura
-- `index.html`: primeira vitrine pública;
-- `assets/styles.css`: apresentação;
-- `content/`: catálogo editorial;
-- `docs/SPEC-0001-digital-identity-foundation.md`: contrato inicial;
-- `docs/PRIVACY-AND-SAFETY.md`: regras obrigatórias.
+- `index.html` — Home, Projetos, Ideias, Produtos, Sobre, Contato, Links
+- `assets/styles.css` — design system A (alvorada editorial)
+- `assets/favicon.svg` — favicon tipográfico “A”
+- `content/catalog.json` — catálogo editorial
+- `docs/IDENTITY.md` · `docs/ROADMAP.md` · `docs/PRIVACY-AND-SAFETY.md` · `docs/ARCHITECTURE.md`
+- `.local/` — config operacional privada (gitignored, sem segredos)
 
-## Publicação
-Hospedar em domínio próprio. Não acoplar a identidade ao provedor de hospedagem. DNS e domínio devem permanecer sob custódia dos responsáveis até a transferência formal.
+## Operação
+Autoria: operador adulto (repo-local). Remote `origin` via SSH exclusiva.
+Sem analytics, sem tracking, sem checkout. Contato supervisionado.
