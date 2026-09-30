@@ -11,3 +11,4 @@
 - Design tokens: `--paper/--ink/--accent/--line`, raio 14px, largura máxima 1020px, tipografia Georgia + Inter.
 - Regras de evolução: pode amadurecer de 7 a 25 anos sem trocar marca; nunca fixar estética por idade atual; novas seções só com necessidade real; sem framework até prova de necessidade.
 - Canais: site é canônico; GitHub é patrimônio; demais canais futuros entram por decisão explícita, nunca por contágio dos irmãos.
+- Custódia: workspace canônico `/home/andre/aurora-de-carvalho`, owner independente; `ilumino-workspace` é referência metodológica, não parent workspace; GitHub Personal Account `AuroraDeCarvalho` (ver `docs/ARCHITECTURE.md` e `docs/adr/ADR-0001-independencia-ownership-heranca-metodologica.md`).
