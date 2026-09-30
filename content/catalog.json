@@ -1,0 +1,26 @@
+{
+  "brand": "Aurora Carvalho",
+  "status": "foundation",
+  "sections": [
+    {
+      "id": "projects",
+      "title": "Projetos",
+      "items": []
+    },
+    {
+      "id": "ideas",
+      "title": "Ideias",
+      "items": []
+    },
+    {
+      "id": "products",
+      "title": "Produtos",
+      "items": []
+    },
+    {
+      "id": "learning",
+      "title": "Aprendizados",
+      "items": []
+    }
+  ]
+}
