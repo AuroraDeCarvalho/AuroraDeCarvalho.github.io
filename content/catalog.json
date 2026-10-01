@@ -5,15 +5,17 @@
   "preview_url": "https://auroradecarvalho.github.io/",
   "hosting": "preview-temporario-github-pages",
   "github": "AuroraDeCarvalho/AuroraDeCarvalho.github.io",
-  "status": "identity-v1",
+  "status": "site-multipagina-v1",
+  "honesty": "empty-means-empty: sections with no documented items stay in an explicit preparation state; nothing fictitious is presented as offer, post or channel",
   "sections": [
-    { "id": "projects", "title": "Projetos", "items": [] },
-    { "id": "ideas", "title": "Ideias", "items": [] },
-    { "id": "products", "title": "Produtos", "items": [] },
-    { "id": "about", "title": "Sobre", "items": [] },
-    { "id": "contact", "title": "Contato", "items": [] },
-    { "id": "links", "title": "Links", "items": [
+    { "id": "home", "title": "Início", "page": "index.html" },
+    { "id": "shop", "title": "Loja", "page": "loja.html", "state": "em-preparacao", "items": [] },
+    { "id": "projects", "title": "Projetos", "page": "projetos.html", "state": "arquivo-em-construcao", "items": [] },
+    { "id": "blog", "title": "Blog", "page": "blog.html", "state": "primeiras-notas-em-breve", "items": [] },
+    { "id": "links", "title": "Links", "page": "links.html", "items": [
       { "label": "GitHub", "url": "https://github.com/AuroraDeCarvalho" }
-    ] }
+    ] },
+    { "id": "about", "title": "Sobre", "page": "sobre.html" },
+    { "id": "contact", "title": "Contato", "page": "contato.html", "state": "canal-publico-em-definicao" }
   ]
 }
