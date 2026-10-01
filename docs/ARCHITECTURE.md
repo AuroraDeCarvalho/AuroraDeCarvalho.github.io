@@ -1,8 +1,9 @@
 # Architecture — Aurora de Carvalho
 
-- Tipo: site estático, HTML + CSS, zero framework, zero build, zero analytics, zero cookies.
-- Entrada: `index.html`; estilos: `assets/styles.css`; favicon: `assets/favicon.svg`.
-- Catálogo editorial: `content/catalog.json` (fonte para futuras listagens).
+- Tipo: site estático multipágina, HTML + CSS próprios, JS vanilla progressivo, zero framework, zero build, zero analytics, zero cookies.
+- Entrada: `index.html`; páginas: `loja.html`, `projetos.html`, `blog.html`, `links.html`, `sobre.html`, `contato.html`; estilos: `assets/styles.css`; comportamento: `assets/app.js`; favicon: `assets/favicon.svg`.
+- Catálogo editorial: `content/catalog.json` (fonte para futuras listagens; vazio explícito onde não há item real).
+- Loja/Projetos/Blog entram em estado honesto de preparação: estrutura pronta, conteúdo real só quando documentado (ver `docs/SPEC-0002-site-multipagina-v1.md`).
 - Metadata: canonical `https://auroradecarvalho.com/` (domínio canônico futuro), Open Graph básico, `robots.txt`, `sitemap.xml`.
 - Config operacional privada: `.local/` (gitignored) + mapa central `~/.config/familia-digital/account-map.json`.
 - Remoto: `origin` → `git@github-aurora:AuroraDeCarvalho/AuroraDeCarvalho.github.io.git` (SSH exclusiva).

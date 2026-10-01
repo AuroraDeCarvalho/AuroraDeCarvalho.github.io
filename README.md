@@ -15,10 +15,13 @@ referência metodológica, não parent workspace (ver `docs/ARCHITECTURE.md` e
 `docs/adr/ADR-0001-independencia-ownership-heranca-metodologica.md`).
 
 ## Estrutura
-- `index.html` — Home, Projetos, Ideias, Produtos, Sobre, Contato, Links
-- `assets/styles.css` — design system A (alvorada editorial)
+- `index.html` — Início (hero, vitrine em preparação, projetos, diário, canais, sobre)
+- `loja.html` · `projetos.html` · `blog.html` · `links.html` · `sobre.html` · `contato.html`
+- `assets/styles.css` — design system A (alvorada editorial, custom properties)
+- `assets/app.js` — JS vanilla progressivo (menu mobile, ano, link ativo)
 - `assets/favicon.svg` — favicon tipográfico “A”
-- `content/catalog.json` — catálogo editorial
+- `content/catalog.json` — catálogo editorial (vazio por decisão onde não há item real)
+- `sitemap.xml` · `robots.txt` — SEO para o domínio canônico futuro
 - `AGENTS.md` · `PROJECT_STATE.md` · `docs/IDENTITY.md` · `docs/ROADMAP.md` · `docs/PRIVACY-AND-SAFETY.md` · `docs/ARCHITECTURE.md` · `docs/adr/`
 - `.local/` — config operacional privada (gitignored, sem segredos)
 

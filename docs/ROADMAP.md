@@ -1,7 +1,10 @@
 # Roadmap — Aurora de Carvalho
 
-## Fase 0 — Fundação (esta missão)
-Preview técnico temporário no ar via GitHub Pages; identidade A; docs; SSH própria; remote isolado. GitHub consolidado como SCM; hospedagem oficial externa com candidata recomendada aguardando decisão humana (ADR-0002).
+## Fase 0 — Fundação (concluída: página-âncora + identidade A + docs + SCM)
+Preview técnico temporário no ar via GitHub Pages; SSH própria; remote isolado. GitHub consolidado como SCM; hospedagem oficial externa com candidata recomendada aguardando decisão humana (ADR-0002).
+
+## Fase 0.5 — Site multipágina v1 (esta missão, SPEC-0002)
+7 páginas navegáveis (Início, Loja, Projetos, Blog, Links, Sobre, Contato), design system em custom properties, JS vanilla progressivo, SEO para o domínio canônico futuro. Loja/Projetos/Blog em estado honesto de preparação: estrutura pronta, conteúdo real só quando documentado.
 
 ## Fase 1 — Repertório
 Publicar 2–3 projetos reais com fotos seguras (sem localização/pessoas expostas), materiais e aprendizados.

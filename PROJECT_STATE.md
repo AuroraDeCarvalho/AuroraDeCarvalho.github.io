@@ -1,19 +1,23 @@
 # Aurora de Carvalho — Estado do projeto
 
 Atualizado: 2026-10-01
-Status: `SITE-ESTATICO-PORTAVEL / HOSPEDAGEM-EXTERNA-PENDENTE-DECISAO-HUMANA`
+Status: `SITE-MULTIPAGINA-V1 / HOSPEDAGEM-EXTERNA-PENDENTE-DECISAO-HUMANA`
 
 ## Estado corrente
 
-- Site estático fundacional (`index.html` + `assets/` + `content/catalog.json`),
-  zero framework/build/analytics, com identidade visual A ("Alvorada editorial").
-- Arquitetura de publicação corrigida (ADR-0002): GitHub = SCM/versionamento/
+- Site estático multipágina v1 (SPEC-0002): `index.html` + `loja.html` +
+  `projetos.html` + `blog.html` + `links.html` + `sobre.html` + `contato.html`,
+  `assets/styles.css` (design system A em custom properties) + `assets/app.js`
+  (vanilla progressivo), `content/catalog.json` honesto (vazio onde não há item
+  real), zero framework/build/analytics.
+- Identidade visual A ("Alvorada editorial") amadurecida: papel quente, Georgia
+  local, cobre `#b45309`, terrosos/creme/neutros/verde discreto, footer editorial,
+  motivos botânicos próprios em SVG. Sem imagens de terceiros, sem retrato
+  inventado, sem newsletter com coleta, sem preços/posts fictícios.
+- Arquitetura de publicação inalterada (ADR-0002): GitHub = SCM/versionamento/
   backup; GitHub Pages = preview técnico temporário; hospedagem oficial =
   serviço externo ainda não contratado; `auroradecarvalho.com` = domínio
-  canônico futuro.
-- Site auditado como host-agnostic: paths relativos, sem build, sem arquivos
-  específicos de provedor (`.nojekyll`/`CNAME`/workflows); metadados canônicos
-  apontam para o domínio futuro. Servido pelo Pages é byte-idêntico ao local.
+  canônico futuro. Nenhum hosting provisionado nesta missão.
 - Owner independente: `/home/andre/aurora-de-carvalho`; GitHub Personal Account
   `AuroraDeCarvalho`, repo `AuroraDeCarvalho/AuroraDeCarvalho.github.io`.
 - Diretriz consolidada: `ilumino-workspace` é referência metodológica;
@@ -22,10 +26,12 @@ Status: `SITE-ESTATICO-PORTAVEL / HOSPEDAGEM-EXTERNA-PENDENTE-DECISAO-HUMANA`
 
 ## Referências ativas
 
-- SPEC vigente: `docs/SPEC-0001-digital-identity-foundation.md`.
+- SPECs vigentes: `docs/SPEC-0001-digital-identity-foundation.md` (fundação) +
+  `docs/SPEC-0002-site-multipagina-v1.md` (site multipágina v1).
 - ADRs vigentes: `docs/adr/ADR-0001-independencia-ownership-heranca-metodologica.md`
   (ownership) + `docs/adr/ADR-0002-publicacao-hospedagem-externa.md`
-  (publicação/hospedagem, `PENDING_HUMAN_DECISION`).
+  (publicação/hospedagem, `PENDING_HUMAN_DECISION`). Nenhum ADR novo: multipágina
+  estática sem build permanece dentro do ADR-0002.
 - Docs vivos: `README.md`, `docs/IDENTITY.md`, `docs/ROADMAP.md`,
   `docs/ARCHITECTURE.md`, `docs/PRIVACY-AND-SAFETY.md`.
 
@@ -47,5 +53,5 @@ Status: `SITE-ESTATICO-PORTAVEL / HOSPEDAGEM-EXTERNA-PENDENTE-DECISAO-HUMANA`
 
 - `HUMAN_DECISION_REQUIRED`: aprovação da candidata (Cloudflare Pages) e
   autorização para criar conta / contratar / registrar domínio / alterar DNS.
-- Sem blocker técnico: preview Pages no ar (HTTP 200, em sincronia com `main`),
-  repo limpo e em sincronia com `origin/main`.
+- Sem blocker técnico: repo limpo e (após push desta missão) em sincronia com
+  `origin/main`.
