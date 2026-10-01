@@ -1,7 +1,7 @@
 # Aurora de Carvalho — Identidade
 
 - Nome público: `Aurora de Carvalho`
-- Domínio futuro: `auroradecarvalho.com` (provisório: `https://auroradecarvalho.github.io/`)
+- Domínio canônico futuro: `auroradecarvalho.com` (preview técnico temporário: `https://auroradecarvalho.github.io/`; hospedagem oficial externa pendente — ver ADR-0002)
 - GitHub: `AuroraDeCarvalho` · repo `AuroraDeCarvalho/AuroraDeCarvalho.github.io`
 - Propósito: documentar projetos reais e aprendizados verificáveis.
 - Missão: criar → experimentar → aprender → explicar → oferecer.

@@ -3,10 +3,17 @@
 - Tipo: site estático, HTML + CSS, zero framework, zero build, zero analytics, zero cookies.
 - Entrada: `index.html`; estilos: `assets/styles.css`; favicon: `assets/favicon.svg`.
 - Catálogo editorial: `content/catalog.json` (fonte para futuras listagens).
-- Metadata: canonical `https://auroradecarvalho.github.io/`, Open Graph básico, `robots.txt`, `sitemap.xml`.
+- Metadata: canonical `https://auroradecarvalho.com/` (domínio canônico futuro), Open Graph básico, `robots.txt`, `sitemap.xml`.
 - Config operacional privada: `.local/` (gitignored) + mapa central `~/.config/familia-digital/account-map.json`.
 - Remoto: `origin` → `git@github-aurora:AuroraDeCarvalho/AuroraDeCarvalho.github.io.git` (SSH exclusiva).
-- Hospedagem provisória: GitHub Pages do repo `<user>.github.io`; futura: domínio próprio sem acoplar identidade ao provedor.
+
+## Publicação e hospedagem (ver ADR-0002)
+
+- GitHub = SCM/versionamento/backup. Fonte remota para deploys; não é a hospedagem pública final.
+- GitHub Pages = preview técnico temporário (`https://auroradecarvalho.github.io/`), mantido sem destruição até a hospedagem oficial existir.
+- Hospedagem oficial = serviço externo (candidata recomendada: Cloudflare Pages, `PENDING_HUMAN_DECISION`); sem conta, gasto, domínio, DNS ou deploy externo sem decisão humana explícita.
+- Domínio canônico futuro: `auroradecarvalho.com` (sem compra/registro nesta fase).
+- Portabilidade: site host-agnostic — paths relativos, sem build, sem dependência de provedor; servir o diretório como estático basta. Nenhum arquivo `.nojekyll`, `CNAME`, workflow ou config proprietária.
 - Isolamento: repo, remote, SSH, Chrome profile e Google próprios; nenhum compartilhamento com irmãos.
 
 ## Owner e workspace canônico

@@ -1,8 +1,9 @@
 # Aurora de Carvalho — Identidade digital independente
 
-Site canônico provisório: `https://auroradecarvalho.github.io/`
-Domínio futuro: `auroradecarvalho.com` (sem compra nesta fase).
-GitHub: `AuroraDeCarvalho/AuroraDeCarvalho.github.io` · SSH: `github-aurora`.
+GitHub (código-fonte + histórico + backup): `AuroraDeCarvalho/AuroraDeCarvalho.github.io` · SSH: `github-aurora`.
+Preview técnico temporário: `https://auroradecarvalho.github.io/`
+Hospedagem oficial: externa ao GitHub, ainda não contratada (ver `docs/adr/ADR-0002-publicacao-hospedagem-externa.md`).
+Domínio canônico futuro: `auroradecarvalho.com` (sem compra nesta fase).
 
 ## Princípios
 Evidência antes de autoridade; simplicidade duradoura; privacidade por padrão;

@@ -1,7 +1,9 @@
 {
   "brand": "Aurora de Carvalho",
   "domain": "auroradecarvalho.com",
-  "provisional_url": "https://auroradecarvalho.github.io/",
+  "canonical_domain": "auroradecarvalho.com",
+  "preview_url": "https://auroradecarvalho.github.io/",
+  "hosting": "preview-temporario-github-pages",
   "github": "AuroraDeCarvalho/AuroraDeCarvalho.github.io",
   "status": "identity-v1",
   "sections": [
